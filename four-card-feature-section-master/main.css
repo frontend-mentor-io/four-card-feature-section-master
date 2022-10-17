@@ -1,0 +1,121 @@
+:root{
+    font-size: 16px;
+
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--grayish-blue);
+    background-color: var(--very-light-gray);
+}
+
+.header-section{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header-title{
+    font-size: 1.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    /* padding: 0 1.5rem; */
+}
+
+.header-first-title{
+    font-weight: 200;
+}
+
+.header-second-title{
+    font-weight: 600;
+    color: var(--very-dark-blue);
+}
+
+.header-copy{
+    font-size: .8rem;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    /* padding: 0 1.5rem; */
+}
+
+.wrapper{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+
+.card{
+    padding:30px;
+    background-color: #FFF;
+    max-width: 310px;
+    height: 222px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: red;
+    top: 0;
+    left: 0;
+}
+
+.card:not(:first-child){
+    margin-top: 25px;
+}
+
+.card:nth-of-type(1)::after{
+    background-color: var(--cyan);
+}
+
+.card:nth-of-type(2)::after{
+    background-color: var(--red);
+}
+
+.card:nth-of-type(3)::after{
+    background-color: var(--orange);
+}
+
+.card:nth-of-type(4)::after{
+    background-color: var(--blue);
+}
+
+.card>h2{
+    color: var(--very-dark-blue);
+    font-size: 1.1875rem;
+}
+
+.card>p{
+    font-size: .9rem;
+}
+
+.card-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: inherit;
+    padding-bottom: inherit;
+}
+
