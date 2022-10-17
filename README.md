@@ -2,6 +2,8 @@
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+- Visit Live Site URL [here](https://frontend-mentor-io.github.io/four-card-feature-section-master/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -37,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo]()
-- Live Site URL: [Github page](https://frontend-mentor-io.github.io/product-preview-card-component-solution/)
+- Solution URL: [Github Repo](https://github.com/frontend-mentor-io/four-card-feature-section-master)
+- Live Site URL: [Github page](https://frontend-mentor-io.github.io/four-card-feature-section-master/)
 
 ## My process
 
